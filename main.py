@@ -8,23 +8,6 @@ import csv
 import pandas as pd
 
 
-# url = "https://www.amazon.com/OnePlus-Dual-SIM-Smartphone-Hasselblad-Processor/dp/B0BNWPSCGB/"
-
-
-# print(title)
-# print(price)
-#
-#
-# print(today)
-
-
-#
-# with open('AmazonScraperData.csv', 'w', newline='', encoding='UTF8') as file:
-#     write = csv.writer(file)
-#     write.writerow(header)
-#     write.writerow(data)
-
-
 def check_price():
     url = "https://www.amazon.com/dp/B0BNWPSCGB"
     headers = {
